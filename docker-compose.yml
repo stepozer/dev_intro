@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  test-api:
+    image: php:8.0-fpm
+    volumes:
+      - ./src:/application
